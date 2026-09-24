@@ -68,6 +68,51 @@
       ],
       "ast": [
         "aggregate/ast/2b2327f2a007a32d736fffa4ab87d3f207053a49/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/2b2327f2a007a32d736fffa4ab87d3f207053a49.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "anyio",
+          "ecosystem": "PYPI",
+          "version": "3.0.0",
+          "githubOrg": "agronholm",
+          "githubRepo": "anyio",
+          "githubCommit": "d1072ba2c5621b70a0086cc765bb8c96d0376160",
+          "githubTag": "3.0.0",
+          "githubUrl": "https://github.com/agronholm/anyio",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "crossbeam-channel",
+          "ecosystem": "CARGO",
+          "version": "0.5.15",
+          "githubOrg": "crossbeam-rs",
+          "githubRepo": "crossbeam",
+          "githubUrl": "https://github.com/crossbeam-rs/crossbeam",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "notify",
+          "ecosystem": "CARGO",
+          "version": "8.0.0",
+          "githubOrg": "notify-rs",
+          "githubRepo": "notify",
+          "githubCommit": "48541cb70fd4bcca131f39878194d0a22bb776f6",
+          "githubTag": "notify-8.0.0",
+          "githubUrl": "https://github.com/notify-rs/notify.git",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "pyo3",
+          "ecosystem": "CARGO",
+          "version": "0.26.0",
+          "githubOrg": "pyo3",
+          "githubRepo": "pyo3",
+          "githubCommit": "4502c2e786b53e16ded3b8afbe46202f6707e46c",
+          "githubTag": "v0.26.0",
+          "githubUrl": "https://github.com/pyo3/pyo3",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
